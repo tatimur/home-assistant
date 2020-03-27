@@ -6,17 +6,20 @@ body {
 }
 a {
     text-decoration: none;
+    height: 170px;
+    
     color:rgba(128, 128, 128, 9);
-    padding-right: 70px;
-    padding-bottom: 30px;
+    padding: 30px 15px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
 }
 a:hover {
     color: black;
     text-decoration: underline;
 }
 a:active {
-    color: rgb(70, 130, 180);
-    
+    color: rgb(70, 130, 180);  
 }
 li {
     list-style: none;
