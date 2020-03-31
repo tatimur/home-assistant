@@ -4,22 +4,26 @@ body {
     max-width: 1180px;
     font-family: 'Ubuntu', sans-serif;
 }
+ul {
+    padding-inline-start: 0px;
+    padding: 0 30px;
+}
 a {
+    display:block;
     text-decoration: none;
-    height: 170px;
-    
     color:rgba(128, 128, 128, 9);
+    min-width: 135px;
     padding: 30px 15px;
     border: 1px solid black;
     text-align: center;
-    vertical-align: middle;
+    margin-bottom: 30px;
 }
 a:hover {
     color: black;
     text-decoration: underline;
 }
 a:active {
-    color: rgb(70, 130, 180);  
+    background-color: rgba(70, 130, 180, 0.3);  
 }
 li {
     list-style: none;
@@ -29,13 +33,9 @@ h1 {
     text-align: center;
     color:rgba(128, 128, 128, 9);
 }
-h1:hover {
-    text-shadow: 1px 1px 2px black;
-}
 .list {
     font-size: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
